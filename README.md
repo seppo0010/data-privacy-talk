@@ -20,6 +20,7 @@ The goal of this repository is to help me build a talk about data privacy.
 
 * [https://arxiv.org/abs/1705.08197](Learning to Succeed while Teaching to Fail: Privacy in Closed Machine Learning Systems)
   [https://arxiv.org/abs/1805.07410](Learning to Collaborate for User-Controlled Privacy)
+  [https://arxiv.org/abs/1610.05755](Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data)
   [https://tv.vera.com.uy/video/54702](Machine Learning Challenges and Opportunities of Computational Behavioral Phenotyping in Developmental Health)
 
 ### [https://en.wikipedia.org/wiki/Habeas_data](Habeas data)
