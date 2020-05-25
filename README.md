@@ -18,7 +18,7 @@ The goal of this repository is to help me build a talk about data privacy.
 
 * [Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1450006)
 
-* [Researchers reverse Netflix anonymization](https://www.securityfocus.com/news/11497)
+* [How To Break Anonymity of the Netflix Prize Dataset](https://arxiv.org/abs/cs/0610105)
 
 * [Doe v. Netflix](https://www.wired.com/images_blogs/threatlevel/2009/12/doe-v-netflix.pdf)
 
