@@ -1,0 +1,42 @@
+digraph fairness {
+    node [shape=box];
+    diff_privacy [ label="Differential Privacy" ];
+    randomized_response [ label="Randomized response"]
+    the_tracker [ label="The tracker" ]
+    algorithms_for_preserving_diff_privacy [ label="Algorithms for Preserving Differential Privacy" ]
+    diff_privacy -> randomized_response
+    diff_privacy -> the_tracker 
+    diff_privacy -> algorithms_for_preserving_diff_privacy 
+    the_tracker -> algorithms_for_preserving_diff_privacy 
+    privacy_preserving_face_recognition [ label="Privacy Preserving Face Recognition" ]
+    diff_privacy -> privacy_preserving_face_recognition
+
+    deanonymization [ label="De-anonymization" ]
+    failure_of_anonymization [ label="Surprising Failure of Anonymization" ]
+    netflix_deanonymization [ label="Researchers reverse Netflix anonymization" ]
+    doe_v_netflix [ label="Doe v. Netflix" ]
+    deanonymization -> failure_of_anonymization -> netflix_deanonymization -> doe_v_netflix
+    privacy_in_closed_ml [ label="Privacy in Closed Machine Learning Systems" ]
+
+    deanonymization -> privacy_preserving_face_recognition
+    deanonymization -> privacy_in_closed_ml 
+
+    habeas_data [ label="Habeas data" ]
+    proteccion_de_datos_personales [ label="Protección de los datos personales" ]
+    right_of_access [ label="Right of access (GDPR)" ]
+    ccpa [ label="California Consumer Privacy Act" ]
+    bipa [ label="Biometric Information Privacy Act (Illinois)" ]
+    patel_v_facebook [ label="Patel v. Facebook" ]
+    rivera_v_google [ label="Rivera et al v. Google LLC" ]
+
+    habeas_data -> proteccion_de_datos_personales 
+    habeas_data -> right_of_access
+    habeas_data -> ccpa
+    habeas_data -> bipa
+    bipa -> patel_v_facebook
+    bipa -> rivera_v_google
+
+    habeas_data -> deanonymization
+    habeas_data -> diff_privacy
+    deanonymization -> diff_privacy
+}
