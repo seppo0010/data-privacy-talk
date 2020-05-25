@@ -135,3 +135,27 @@ anonimizada.
 Una alternativa para ofrecer acceso a información recolectada es permitir
 hacer consultas agregadas de resultados, por ejemplo contar la cantidad de
 personas que vieron una película, o el promedio de puntaje que le dieron.
+Cuando se hace eso, para no revelar información sobre gente, se suele excluir
+las respuestas que incluyen un grupo muy reducido. Pero con algo de creatividad
+se puede hacer un programa que se dedique a hacer consultas y computar la
+diferencia entre distintos grupos y de esa forma sacar los registros
+individuales. Y con los registros individuales cruzarlo contra otras bases de
+datos nuevamente.
+
+Pero no todo está perdido. Existe un concepto que se llama privacidad
+diferencial. La idea es que la publicación de un _dataset_ debería ser igual
+con la participación o no de un individuo. Es decir que nadie por sí mismo no
+debe afectar los resultados, de esa forma no debe poder averiguarse información
+de alguien en particular. Un ejemplo de cómo se puede lograr esto es con un
+conjunto de consultas agregadas limitado.
+
+Una forma intuitiva de lograr privacidad diferencial es que algunas de las
+respuestas sean aleatorias. Suponiendo que queremos saber algo sensible, por
+ejemplo si la persona cometió adulterio o consume drogas. Le preguntamos a la
+persona una pregunta binaria y en vez de pedir que responda correctamente, le
+pedimos que tire una moneda, si sale cara responda honestamente pero si sale
+seca que tire la moneda de nuevo y responda aleatoriamente según su resultado.
+Así toda persona puede desconocer su respuesta si es de-anonimizada de alguna
+forma. Tiene un costo, por supuesto, que es que la mitad de las respuestas no
+nos sirven pero sabemos la distribución de ellas y podemos considerarlo en
+nuestro análisis.
