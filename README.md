@@ -32,7 +32,7 @@ The goal of this repository is to help me build a talk about data privacy.
 
 * [Habeas data Argentina](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)
 
-* [Right of access (GDPR](https://gdpr-info.eu/art-15-gdpr/))
+* [Right of access (GDPR)](https://gdpr-info.eu/art-15-gdpr/))
 
 * [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa)
 
