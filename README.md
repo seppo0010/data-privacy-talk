@@ -6,9 +6,11 @@ The goal of this repository is to help me build a talk about data privacy.
 
 ### [https://en.wikipedia.org/wiki/Differential_privacy](Differential privacy)
 
-* [Randomized Response: A Survey Technique for Eliminating Evasive Answer Bias](https://www.tandfonline.com/doi/abs/10.1080/01621459.1965.10480775)
+* [https://www.tandfonline.com/doi/abs/10.1080/01621459.1965.10480775](Randomized Response: A Survey Technique for Eliminating Evasive Answer Bias)
 
-* [The Tracker: A Threat to Statistical Database Security](http://www.dbis.informatik.hu-berlin.de/fileadmin/lectures/SS2011/VL_Privacy/Tracker1.pdf)
+* [http://www.dbis.informatik.hu-berlin.de/fileadmin/lectures/SS2011/VL_Privacy/Tracker1.pdf](The Tracker: A Threat to Statistical Database Security)
+
+* [http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2010/CMU-CS-10-135.pdf](New Algorithms for Preserving Differential Privacy)
 
 ### [https://en.wikipedia.org/wiki/Data_re-identification](De-anonymization)
 
