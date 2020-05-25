@@ -1,5 +1,7 @@
 # Data Privacy talk
 
+![cc-by-sa.svg]("Creative Commons Attribution-ShareAlike 4.0 International")
+
 The goal of this repository is to help me build a talk about data privacy.
 
 ## Subject, cases
