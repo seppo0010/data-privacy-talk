@@ -14,6 +14,8 @@ The goal of this repository is to help me build a talk about data privacy.
 
 * [New Algorithms for Preserving Differential Privacy](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2010/CMU-CS-10-135.pdf)
 
+* [Formal Privacy Methods for the 2020 Census](https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management/planning-docs/privacy-methods-2020-census.html)
+
 ### [De-anonymization](https://en.wikipedia.org/wiki/Data_re-identification)
 
 * [Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1450006)
@@ -159,3 +161,40 @@ Así toda persona puede desconocer su respuesta si es de-anonimizada de alguna
 forma. Tiene un costo, por supuesto, que es que la mitad de las respuestas no
 nos sirven pero sabemos la distribución de ellas y podemos considerarlo en
 nuestro análisis.
+
+Alternativamente podemos agregarle _ruido_ a los resultados agregados de las
+consultas que se realizan, en cuyo caso la de-anonimización ya no es más
+posible. Esto no es fácil de hacer tampoco porque hay que asegurarse que las
+respuestas sean consistentes y repetibles. También tiene el problema de que
+quien recibe las respuestas las recibe no modificadas. Esto es lo que va a
+hacer Estados Unidos con los resultados de su Censo 2020.
+
+Se puede diseñar un sistema en el cual la información que recibe el servidor
+está preprocesada de forma tal que puede efectuar la tarea que es necesaria
+sin poder hacer otras cosas. Por ejemplo un uso que se está estudiando es el
+diagnóstico del trastorno de espectro autista, para eso se pone a une niñe
+a ver un video y se mide su respuesta, como para qué lado mira o cuánto tarda
+en reaccionar. Una primera forma de hacer esto es con la información biométrica
+del infante, pero estos datos son sensibles y no queremos que sean revelados,
+entonces podemos simplemente enviar la información ya "masticada", como
+justamente para dónde mira en cada cuadro.
+
+Y se puede ir más allá y se pueden usar redes neuronales adversarias para
+generar esta función de sanitización. Una red intenta obtener el resultado
+positivo con esta representación intermedia mientras que otra busca sacar
+la información biométrica, por ejemplo establecer el sexo del bebé, y lo que se
+busca es maximizar la primera y minimizar la segunda al mismo tiempo.
+
+Otra posibilidad es agregarle ruido a los datos antes de enviarlos, con cierta
+distribución conocida. En un problema de reconocimiento facial se puede agregar
+ruido gaussiano a las imágenes, y contrastarlas contra otras imágenes con ruido
+gaussiano para lograr la identificación. La persona en la imagen con ruido no
+es identificable al ojo humano, pero sí puede usarse para la identificación con
+sorprendentemente buenos resultados.
+
+En conclusión la privacidad es un derecho importante para muchas personas, y
+no es fácil de garantizar por las empresas. La publicación de información que
+parece no sensible puede lograr filtrar información sensible. La privacidad
+diferencial nos ofrece una forma de pensar el problema. Agregando ruido
+aleatorio con una distribución predecible a la recolección y publicación de
+datos se puede aumentar su privacidad.
