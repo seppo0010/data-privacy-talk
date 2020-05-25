@@ -35,3 +35,7 @@ The goal of this repository is to help me build a talk about data privacy.
 * [Right of access (GDPR](https://gdpr-info.eu/art-15-gdpr/))
 
 * [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa)
+
+* [Biometric Information Privacy Act (Illinois)](http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004&ChapterID=57)
+  [Patel v. Facebook](https://cases.justia.com/federal/appellate-courts/ca9/18-15982/18-15982-2019-08-08.pdf?ts=1565283704)
+  [Rivera et al v. Google LLC](https://law.justia.com/cases/federal/district-courts/illinois/ilndce/1:2016cv02714/323329/207/)
