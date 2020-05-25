@@ -30,7 +30,7 @@ The goal of this repository is to help me build a talk about data privacy.
 
 ### [Habeas data](https://en.wikipedia.org/wiki/Habeas_data)
 
-* [Habeas data Argentina](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)
+* [Protección de los datos personales (Argentina)](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm)
 
 * [Right of access (GDPR)](https://gdpr-info.eu/art-15-gdpr/))
 
