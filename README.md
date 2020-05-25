@@ -16,6 +16,8 @@ The goal of this repository is to help me build a talk about data privacy.
 
 * [Formal Privacy Methods for the 2020 Census](https://www.census.gov/programs-surveys/decennial-census/2020-census/planning-management/planning-docs/privacy-methods-2020-census.html)
 
+#### [Computer Vision Applications to Computational Behavioral Phenotyping: An Autism Spectrum Disorder Case Study](https://www.researchgate.net/publication/329764303_Computer_Vision_Applications_to_Computational_Behavioral_Phenotyping_An_Autism_Spectrum_Disorder_Case_Study)
+
 ### [De-anonymization](https://en.wikipedia.org/wiki/Data_re-identification)
 
 * [Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1450006)
